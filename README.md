@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Supabricx
 
-## Getting Started
+Supabricx is a **full-stack accelerator** designed to make building apps as simple as running one command.  
+Today it scaffolds **production-ready backends** (Express, NestJS, SpringBoot), and in the near future it will expand into:
 
-First, run the development server:
+- 🎨 **Frontend Components** — ready-to-use React, Vue, and Svelte UI blocks.  
+- 🛠️ **Backend Blueprints** — scalable APIs, auth, and database integrations.  
+- 🤖 **AI Web Builder** — generate full-stack apps instantly with natural language (think V0, Lovable, Orchids, Floot).  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Supabricx is built with the future in mind: a single toolchain for developers who want to move fast without being locked into one stack.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Current Features
+- `npx create-supabricx@latest` → Scaffold a backend project in seconds  
+- Supports **Express** (NestJS & SpringBoot coming soon)  
+- Out-of-the-box setup with **Prisma, JWT Auth, Google/GitHub OAuth**  
+- Auto-generated `.env` and `.gitignore`  
+- Dependency installation with `npm` handled for you  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌌 Future Roadmap
+- Frontend component library (React, Vue, Svelte starters)  
+- Full backend modules (Auth, DB, Realtime, Queues)  
+- Cross-platform AI builder for **one-click fullstack apps**  
+- Extendable plugin system for community contributions  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💡 Supabricx aims to be what **Supabase + Firebase + V0 + Lovable** are — but unified into one **open, developer-first ecosystem**.
