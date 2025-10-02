@@ -25,7 +25,7 @@ const Button: React.FC<ButtonProps> = ({
         backdrop-blur-md 
         border border-white/10 
         rounded-[30px] 
-        h-full
+        h-full!
         text-white 
         text-lg 
         inline-flex items-center justify-center gap-2 

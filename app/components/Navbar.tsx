@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import { ArrowRight, GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
+import { ArrowUpRight, GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 import Button from './Button';
 
 const Navbar = () => {
@@ -25,7 +25,7 @@ const Navbar = () => {
             <GithubLogo size={32} />
             <Button
               title="Join the Beta"
-              Icon={ArrowRight}
+              Icon={ArrowUpRight}
               width="220px"
               height="60px"
             />
