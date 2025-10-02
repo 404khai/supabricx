@@ -19,12 +19,12 @@ button::before {
   background: linear-gradient(
     90deg,
     transparent 0%,
-    rgba(147, 51, 234, 0.8) 20%,
-    rgba(168, 85, 247, 1) 50%,
-    rgba(147, 51, 234, 0.8) 80%,
+    rgb(255, 126, 56, 0.8) 20%,
+    rgb(255, 158, 61, 1) 50%,
+    rgb(250, 127, 51, 0.8) 80%,
     transparent 100%
   );
-  box-shadow: 0 0 20px rgba(147, 51, 234, 0.5);
+  box-shadow: 0 0 20px rgba(255, 126, 56, 0.5);
 }
 
 button::after {
@@ -45,11 +45,11 @@ button::after {
 /* Hover/Active States */
 button:hover {
   background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(147, 51, 234, 0.3);
+  border-color: rgba(255, 126, 56, 0.3);
   transform: translateY(-2px);
   box-shadow:
     0 12px 40px rgba(0, 0, 0, 0.4),
-    0 0 30px rgba(147, 51, 234, 0.2),
+    0 0 30px rgba(255, 126, 56, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
@@ -57,12 +57,12 @@ button:hover::before {
   background: linear-gradient(
     90deg,
     transparent 0%,
-    rgba(147, 51, 234, 1) 20%,
-    rgba(168, 85, 247, 1) 50%,
-    rgba(147, 51, 234, 1) 80%,
+    rgb(255, 126, 56, 0.8) 20%,
+    rgb(255, 158, 61, 1) 50%,
+    rgb(250, 127, 51, 0.8) 80%,
     transparent 100%
   );
-  box-shadow: 0 0 30px rgba(147, 51, 234, 0.8);
+  box-shadow: 0 0 30px rgba(255, 126, 56, 0.8);
 }
 
 button:active {
