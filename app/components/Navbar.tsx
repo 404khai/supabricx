@@ -10,10 +10,13 @@ const Navbar = () => {
         </div>
         
 
-        <div className='flex justify-center items-center h-full w-100 bg-amber-200'>
-            
+        <div className="flex justify-evenly items-center h-full w-100 bg-white/70 backdrop-blur-md border border-white/10 rounded-[30px] shadow-lg">
+          <p>Product</p>
+          <p>Docs</p>
+          <p>APIs</p>
         </div>
 
+        
         <div className='flex justify-center items-center h-full w-100 bg-amber-200'>
             
         </div>
